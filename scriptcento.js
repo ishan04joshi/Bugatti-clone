@@ -13,11 +13,26 @@ const list2 = document.getElementsByClassName('hidden-list')[2]
 const hover3 = document.getElementsByClassName('model-list')[4]
 const list3 = document.getElementsByClassName('hidden-list')[3]
 
+const click = document.getElementsByClassName('cento-animation')[0]
+const animation = document.getElementsByClassName('cento-1-1')[0]
+const animation1 = document.getElementsByClassName('cento-1-2')[0]
+const animation2 = document.getElementsByClassName('cento-1-3')[0]
+const animation3 = document.getElementsByClassName('cento-1-4')[0]
 
+click.addEventListener('mouseenter', () => {
+    animation.classList.add('active')
+    animation1.classList.add('active')
+    animation2.classList.add('active')
+    animation3.classList.add('active')
+    
+});
 
 check.addEventListener('click', () => {
     navbar.classList.toggle('active')
 });
+
+
+
 
 
 hover.addEventListener('mouseenter', () => {
