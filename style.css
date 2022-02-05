@@ -910,3 +910,18 @@ body {
     right: 360px;
     color: white;
 }
+
+.main-img-chiron {
+    background-image: url('./images/chiron.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 30%;
+    margin-bottom: 20px;
+    font-family: ff-zwo-web, arial, sans-serif;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
