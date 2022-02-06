@@ -699,16 +699,13 @@ body {
 
 .cento-1-1 {
     position: absolute;
-    display:none;
-
-}
-.cento-1-1.active{
     display: inline;
     animation: cento1;
     animation-duration: 4s;
     animation-fill-mode: forwards;
     animation-timing-function: ease-out;
     animation-iteration-count: infinite;
+
 }
 
 @keyframes cento1 {
@@ -726,9 +723,6 @@ body {
 .cento-1-2 {
     padding: 12% 0;
     position: absolute;
-    display:none;
-}
-.cento-1-2.active{
     display: inline;
     animation: cento2;
     animation-duration: 4s;
@@ -736,6 +730,7 @@ body {
     animation-timing-function: ease-out;
     animation-iteration-count: infinite;
 }
+
 
 @keyframes cento2 {
     from {
@@ -789,19 +784,19 @@ body {
 
 .cento-1-4 {
     position: absolute;
-    display:none;
     color: white;
     text-align: right;
-    
-}
-.cento-1-4.active{
     display: inline;
     animation: cento4;
     animation-duration: 4s;
     animation-fill-mode: forwards;
     animation-timing-function: ease-out;
     animation-iteration-count: infinite;
+    
 }
+/* .cento-1-4.active{
+    
+} */
 
 @keyframes cento4 {
     from {
