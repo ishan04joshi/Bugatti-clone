@@ -145,6 +145,33 @@ body {
     margin-bottom: 20px;
     font-family: ff-zwo-web, arial, sans-serif;
 }
+@media(max-width: 600px) {
+    .main-img {
+        padding: 200px 60px 20px 30px;
+        
+    }
+    .main-img p{
+        display:none;
+    }
+    .main-img h1{
+        display:none;
+    }
+    .main-img a {
+        text-transform: uppercase;
+        color: white;
+        font-size: 10px;
+        text-decoration: none;
+        border: solid 1px white;
+        padding: 2px;
+    
+    }
+    #find-dealer span{
+        display:none;
+    }
+  #find-dealer{
+      padding-left: 20vw;
+  }
+}
 
 .main-img h1 {
     font-size: 50px;
@@ -245,6 +272,41 @@ body {
 .grid3 img {
     width: 30vw;
 }
+@media(max-width: 600px) {
+    .div-2 {
+        margin-right: 0;
+        padding-right: 0;
+        padding-top: 2%;
+    }
+    .model-div{
+        display: block;
+        margin:auto;
+        
+    }
+    .grid1 {
+        margin:auto;
+    }
+    .grid1 img {
+        width: 80vw;
+    
+    }
+
+    .grid2 {
+        margin:auto;
+    }
+    .grid2 img {
+        width: 80vw;
+    
+    }
+    .grid3 {
+        margin:auto;
+    }
+    .grid3 img {
+        width: 80vw;
+    
+    }
+    
+}
 
 .textover {
     position: relative;
@@ -308,7 +370,12 @@ body {
 #news {
     margin: 5%;
 }
-
+@media(max-width: 600px) {
+    #news{
+        display: none;
+    }
+    
+}
 #news a {
     color: white;
     text-transform: uppercase;
