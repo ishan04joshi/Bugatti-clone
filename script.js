@@ -17,32 +17,36 @@ const list3 = document.getElementsByClassName('hidden-list')[3]
 
 check.addEventListener('click', () => {
     navbar.classList.toggle('active')
+    list.classList.remove('active')
+    list1.classList.remove('active')
+    list2.classList.remove('active')
+    list3.classList.remove('active')
 });
 
 
 hover.addEventListener('mouseenter', () => {
-    list.classList.toggle('active')
+    list.classList.add('active')
     list1.classList.remove('active')
     list2.classList.remove('active')
     list3.classList.remove('active')
 });
 
 hover1.addEventListener('mouseenter', () => {
-    list1.classList.toggle('active')
+    list1.classList.add('active')
     list.classList.remove('active')
     list2.classList.remove('active')
     list3.classList.remove('active')
 });
 
 hover2.addEventListener('mouseenter', () => {
-    list2.classList.toggle('active')
+    list2.classList.add('active')
     list.classList.remove('active')
     list1.classList.remove('active')
     list3.classList.remove('active')
 });
 
 hover3.addEventListener('mouseenter', () => {
-    list3.classList.toggle('active')
+    list3.classList.add('active')
     list.classList.remove('active')
     list1.classList.remove('active')
     list2.classList.remove('active')
