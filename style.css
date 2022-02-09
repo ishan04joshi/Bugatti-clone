@@ -496,7 +496,7 @@ body {
     position: relative;
 }
 
-.social-flex div figcaption {
+.caption {
     position: absolute;
     top: 0;
     left: 0;
@@ -505,7 +505,24 @@ body {
     box-sizing: border-box;
     font-size: 30px;
     color: white;
-    background: rgba(40, 15, 73, 0.507);
+    background: rgba(0, 0, 0, 0.349);
+}
+.hover-caption{
+    /* display: none; */
+    position: absolute;
+    bottom:0;
+    left: 0;
+    padding: 10px;
+    padding-top: 70px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: rgb(201, 186, 186);
+    background: rgba(0, 0, 0, 0.37);
+}
+.hover-caption.active {
+    display: none;
+    
 }
 
 .social-link {
